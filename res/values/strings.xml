@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ABB_Terminal 670</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="TU">Термінал</string>
+    <string name="REB670">REB670</string>
+    <string name="REC670">REC670</string>
+    <string name="RED670">RED670</string>
+    <string name="REL670">REL670</string>
+    <string name="RET670">RET670</string>
+    <string name="tvREB">Термінал захисту шин:</string>
+    <string name="tvREC">Термінал управління:</string>
+    <string name="software">ПРОГРАМНЕ ЗАБЕЗПЕННЯ</string>
+    <string name="configVariability">Варіант конфігурації:</string>
+    <string name="configCAP">Конфігурація CAP:</string>
+    <string name="ResultTextBtn">Обраний варіант</string>
+    <string name="btnNext">Продовжити</string>
+    <string name="softwareOption">Опції програмного забезпечення:</string>
+    <string name="model">REB 670</string>
+    <string name="OptionSoft">Опції програмного забезпечення:</string>
+    <string name="firstLanguage">Перша мова інтерфейсу людина-машина ІЛМ:</string>
+    <string name="secondLanguage">Друга мова ІЛМ:</string>
+    <string name="btnRes">Обрати</string>
+    <string name="btnResult">Обраний термінал:</string>
+    <string name="Instruction">Оберіть опції програмного забезпечення і натисніть кнопку "Обрати"</string>
+    <string name="hardware">АПАРАТНЕ ЗАБЕЗПЕЧЕННЯ</string>
+    <string name="body">Тип корпусу:</string>
+    <string name="kit">Монтажні комплекти з ступенями захисту:</string>
+    <string name="connection">Тип з"єднання для PSM та модулів IO:</string>
+    <string name="connection2">Стандартний тип з"єднання</string>
+    <string name="supply">Модуль живлення:</string>
+    <string name="MMI">Тип інтерфейсу людина-машина ІЛМ:</string>
+    <string name="inputs">Система аналогових входів, ном. величини:</string>
+    <string name="outin">Дискіретні входи і виходи, mA-модулі синхронізації:</string>
+    <string name="connectionLEP">Звязок з віддаленим кінцем ЛЕП і синхронізація часу:</string>
+    <string name="connectionObj">Модулі зв"язку в межах об"єкту:</string>
+
+    <string-array name="VarConfREB">
+        <item>3-фазний, 4 приєднання</item>
+        <item>3-фазний, 8 приєднань</item>
+        <item>1-фазний, 12 приєднань, 1/2 19"</item>
+        <item>1-фазний, 12 приєднань, 1/1 19"</item>
+        <item>1-фазний, 24 приєднання</item>
+    </string-array>
+    <string-array name="ConfCAPREB">
+        <item>Проста система, 1 1/2СВ, 2СВ, 1СВ, b-контакт, тільки ДЗШ</item>
+        <item>2 системи шин - 1СВ, контакти a та b, тільки ДЗШ</item>
+        <item>2 системи шин - 1СВ, контакти a та b, ДЗШ, ПРВВ, МСЗ</item>
+    </string-array>
+    <string-array name="SoftOptionREB">
+        <item>Без опцій</item>
+        <item>4-ступеневий фазний МСЗ, 4 приєднання</item>
+        <item>4-ступеневий фазний МСЗ, 8 приєднань</item>
+        <item>4-ступеневий  однофазний МСЗ, 12 приєднань</item>
+        <item>4-ступеневий  однофазний МСЗ, 24 приєднань</item>
+        <item>Резервування відмови вимикача, 4 приєднання</item>
+        <item>Резервування відмови вимикача, 8 приєднаннь</item>
+        <item>Резервування відмови вимикача, 12 приєдн. однофазн.</item>
+        <item>Резервування відмови вимикача, 24 приєдн. однофазн.</item>
+        <item>АПВ, 2 вимикачі</item>
+    </string-array>
+    <string-array name="SoftOptionLang1">
+        <item>Англійська IEC</item>
+        <item>Англійська US</item>
+    </string-array>
+    <string-array name="SoftOptionLang2">
+        <item>Без другої мови ІЛМ</item>
+        <item>Німецька</item>
+        <item>Російська</item>
+        <item>Французська</item>
+        <item>Іспанська</item>
+        <item>Італійська</item>
+        <item>Польська</item>
+        <item>Угорська</item>
+        <item>Чеська</item>
+        <item>Шведська</item>
+    </string-array>
+    <string-array name="bodyREB">
+        <item>1/2 19" корпус</item>
+        <item>3/4 19" корпус(1TRM)</item>
+        <item>1/1 19" корпус(2TRM)</item>
+    </string-array>
+    <string-array name="kit">
+        <item>19" рейковий монт. комплект корп. 1/2х19" або 2хRHGS6 або RHGS12</item>
+        <item>19" рейковий монт. комплект корп. 3/4х19" або 3хRHGS6</item>
+        <item>19" рейковий монт. комплект корп. 3/х19"</item>
+        <item>Настінний монт. комплект</item>
+        <item>Утоплений монт. комплект</item>
+        <item>Утоплений монт. комплект+ущільнення IP54</item>
+    </string-array>
+    <string-array name="supply">
+        <item>24-60V DC</item>
+        <item>90-250V</item>
+    </string-array>
+    <string-array name="MMI">
+        <item>Малий розмір - тільки текст, символи IEC</item>
+        <item>Середній розмір - графічний, символи IEC</item>
+        <item>Середній розмір - графічний, символи ANSI</item>
+    </string-array>
+    <string-array name="inputs1">
+        <item>Перший TRM, стандартний тип з"єднань</item>
+        <item>Перший TRM, кільцевий тип з"єднань</item>
+    </string-array>
+    <string-array name="inputs2REB">
+        <item>Перший TRM 12I 1A</item>
+        <item>Перший TRM 12I 5A</item>
+    </string-array>
+    <string-array name="inputs3_1REB">
+        <item>Другий TRM, Стандартний тип з"єднань</item>
+        <item>Другий TRM, Кільцевий тип з"єднань</item>
+    </string-array>
+    <string-array name="inputs3_2">
+        <item>Без другого TRM</item>
+        <item>Другий TRM, Стандартний тип з"єднань</item>
+        <item>Другий TRM, Кільцевий тип з"єднань</item>
+    </string-array>
+    <string-array name="inputs4REB">
+        <item>Другий TRM 12I  1A, 100/220V</item>
+        <item>Другий TRM 12I  5A, 100/220V</item>
+    </string-array>
+    <string-array name="dataOutInREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BOM 24 вихідних реле</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 24-30 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 48-60 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 110-125 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 220-250 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 24-30 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 48-60 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 110-125 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 220-250 VDC</item>
+        <item>Модуль GPS синхронізації</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="OutIn3_1LREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BOM 24 вихідних реле</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>Модуль GPS синхронізації</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="OutIn3_1ALREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>Модуль GPS синхронізації</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="OutIn3_1AREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 24-30 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 48-60 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 110-125 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 220-250 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 24-30 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 48-60 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 110-125 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 220-250 VDC</item>
+        <item>Модуль GPS синхронізації</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="OutIn3_3AREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 24-30 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 48-60 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 110-125 VDC</item>
+        <item>IOM 8 входів 10+2 вихідних реле, 220-250 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 24-30 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 48-60 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 110-125 VDC</item>
+        <item>IOM з MOV 8 входів 10+2 вихідних реле, 220-250 VDC</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="OutIn3_3LREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BOM 24 вихідних реле</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="OutIn3_3ALREB">
+        <item>Модуль відсутній в слоті</item>
+        <item>BIM 16 входів, 24-30 VDC</item>
+        <item>BIM 16 входів, 48-60 VDC</item>
+        <item>BIM 16 входів, 110-125 VDC</item>
+        <item>BIM 16 входів, 220-250 VDC</item>
+        <item>BIMp 16 входів, 24-30 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 48-60 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 110-125 VDC для рахунку імпульсів</item>
+        <item>BIMp 16 входів, 220-250 VDC для рахунку імпульсів</item>
+        <item>Модуль статичних виходів SOM</item>
+    </string-array>
+    <string-array name="CLEPREB">
+        <item>Модуль зв"язку з віддаленим кінцем ЛЕП відсутній</item>
+        <item>Оптичний LDCM, 3 км</item>
+        <item>IRIG-B Модуль синхронізації часу, з PPS</item>
+        <item>Гальванічний модуль зв"язку RS485</item>
+    </string-array>
+    <string-array name="connectionObj1">
+        <item>Перший модуль зв"язку відсутній</item>
+        <item>Послідовний модуль SPA/IEC 60870-5-103 та LON - пласт.</item>
+        <item>Послідовний модуль SPA/IEC 60870-5-103 та LON - пласт./скло</item>
+        <item>Послідовний модуль SPA/IEC 60870-5-103 та LON - скло</item>
+    </string-array>
+    <string-array name="connectionObj2">
+        <item>Другий модуль зв"язку відсутній</item>
+        <item>Оптичний модуль Ethernet IEC 61850-8-1/100baseFx - 1 канал скло</item>
+        <item>Оптичний модуль Ethernet IEC 61850-8-1/100baseFx -  2 канали скло</item>
+    </string-array>
+
+</resources>

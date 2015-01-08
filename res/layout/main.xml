@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="none"
+        android:text="@string/TU"
+        android:textStyle="bold"
+        android:typeface="normal" >
+
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvREB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/tvREB" />
+
+            <Button
+                android:id="@+id/REB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onclickREB"
+                android:text="@string/REB670" />
+
+            <TextView
+                android:id="@+id/tvREC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/tvREC"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/REC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onclickREC"
+                android:text="@string/REC670"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/RED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onclickRED"
+                android:text="@string/RED670"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/REL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onclickREL"
+                android:text="@string/REL670"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/RET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onclickRET"
+                android:text="@string/RET670"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

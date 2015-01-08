@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ws1.abb_terminal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Soft_page1"></activity>
+        <activity android:name="ConfCap_page2"></activity>
+        <activity android:name="Opt_page3"></activity>
+        <activity android:name="Hardware_page4"></activity>
+        <activity android:name="Hardware_page5v1"></activity>
+        <activity android:name="Hardware_page5v2"></activity>
+        <activity android:name="Hardware_page5v3"></activity>
+        <activity android:name="Hardware_page6v1"></activity>
+        <activity android:name="Hardware_page6v2"></activity>
+        <activity android:name="Hardware_page6v3"></activity>
+        <activity android:name="Hardware_page7"></activity>
+    </application>
+
+</manifest>

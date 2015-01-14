@@ -12,12 +12,9 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements OnClickListener {
 
 	TextView tV1;
-	Button REB, REC, RED, REL, RET;
-	public String button1 = "";
+	Button REB;
+    //Button REC, RED, REL, RET;
 
-	public String getButtonName() {
-		return button1;
-	}
 
 	/** Called when the activity is first created. */
 	@Override
@@ -27,16 +24,16 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		tV1 = (TextView) findViewById(R.id.tV1);
 		REB = (Button) findViewById(R.id.REB);
-		REC = (Button) findViewById(R.id.REC);
-		RED = (Button) findViewById(R.id.RED);
-		REL = (Button) findViewById(R.id.REL);
-		RET = (Button) findViewById(R.id.RET);
+		//REC = (Button) findViewById(R.id.REC);
+		//RED = (Button) findViewById(R.id.RED);
+		//REL = (Button) findViewById(R.id.REL);
+		//RET = (Button) findViewById(R.id.RET);
 
 		REB.setOnClickListener(this);
-		REC.setOnClickListener(this);
-		RED.setOnClickListener(this);
-		REL.setOnClickListener(this);
-		RET.setOnClickListener(this);
+		//REC.setOnClickListener(this);
+		//RED.setOnClickListener(this);
+		//REL.setOnClickListener(this);
+		//RET.setOnClickListener(this);
 
 	}
 
@@ -47,7 +44,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		case R.id.REB:
 			intent.putExtra("MODEL", "REB 670");
 			break;
-		case R.id.REC:
+		/*case R.id.REC:
 			intent.putExtra("MODEL", "REC 670");
 			break;
 		case R.id.RED:
@@ -58,7 +55,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.RET:
 			intent.putExtra("MODEL", "RET 670");
-			break;
+			break;*/
 		}
 
 		startActivity(intent);
